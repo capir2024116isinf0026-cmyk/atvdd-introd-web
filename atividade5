@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de notas</title>
+</head>
+<body>
+
+    <input type="number" id="nota">
+
+    <button onclick="
+        if(document.getElementById('nota').value >= 6){
+            alert('Aprovado');
+        } else {
+            alert('Reprovado');
+        }
+    ">
+        Verificar Nota
+    </button>
+
+</body>
+</html>
